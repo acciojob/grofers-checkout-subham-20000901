@@ -8,7 +8,7 @@ const getSum = () => {
 
   let prices = document.querySelectorAll(".prices");
 	for(let i=0; i<prices.length; i++){
-		total += Number(price[i].textContent);	
+		total += Number(prices[i].textContent);	
 	}
 	let newRow = document.createElement("tr");
 	let newCell = document.createElement("td");
